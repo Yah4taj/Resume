@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+ul{
+    font-weight: 100;
+}
+
+/* Styles */
+.section1 {
+    background-color: green;
+}
+
+.profile_container {
+    background-color: blue;
+    display: flex;
+    padding: 10 px;
+}
+
+.img_container {
+    display: flex;
+    margin-right: auto;
+   
+}
+
+.name_title_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.name_title_container>h1 {
+    font-size: 40px;
+}
+
+.profile_details {
+    padding: 40px;
+    font-size: medium;
+
+}
+
+.description {
+
+    font-size: small;
+    font-weight: 100;
+    padding: 10px;
+}
+
+ .title {
+ color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px; 
+}  
+
+.item_preTitle {
+    font-size: small;
+    color: var(--text-color);
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.item_title {
+    font-size: small;
+    color: white;
+    font-weight: 100;
+    margin: 20px;
+}
+
+.item.subtitle {
+    font-size: medium;
+    color: var(--text-color);
+    font-weight: 400; */
+} 
+
+
+/* layouts */
+profile {
+    /* margin-bottom: 1rem; */
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+    }
+  }
+/* Expertise */
+.exp_item{
+  margin-top: 10px;  
+}
+
+/* Education */
+.edu_item margin-top: 10px;
+}
+
+/* Certification */
+.certification_item {
+    margin-top: 2rem;
+}
